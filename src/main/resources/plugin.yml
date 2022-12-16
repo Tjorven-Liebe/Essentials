@@ -1,0 +1,307 @@
+name: Essentials
+main: de.ellyrion.tjorven.essentials.Essentials
+version: 1.0
+author: Cericx_
+
+commands:
+  broadcast:
+    description: Sends a message as broadcast to everyone
+    aliases:
+      - bc
+      - bcast
+  balance:
+    description: Get the money of a player
+    aliases:
+      - bal
+  balancetop:
+    description: List the top 10 richest players
+    aliases:
+      - baltop
+  economy:
+    description: An interface to modify the balance of a user
+    aliases:
+      - eco
+  money:
+    description: Shows the money of a player
+  pay:
+    description: You can pay a player with it
+  anvil:
+    description: Opens the gui of an anvil
+  backpack:
+    description: Opens a chest which saves the contents
+    aliases:
+      - bp
+      - bpack
+  enderchest:
+    description: Opens the enderchest of a player
+    aliases:
+      - ec
+  furnace:
+    description: Opens the furnace gui.
+  workbench:
+    description: Opens a workbench for you
+    aliases:
+      - wb
+  delhome:
+    description: You can delete a home with it
+    aliases:
+      - deletehome
+  home:
+    description: You can teleport to your home with it
+  homes:
+    description: You can list your set homes
+  sethome:
+    description: You can set a home with it
+  afk:
+    description: You can set your current state as Awawy from Keyboard
+    aliases:
+      - awayfromkeyboard
+  clear:
+    description: Clears the inventory of a player
+  killall:
+    description: Kills all players without bypass permission
+  kill:
+    description: Kill a specific player
+  lay:
+    description: Lay yourself down on the ground
+  sit:
+    description: Sit yourself wherever you like
+  break:
+    description: Destroys the block in front of your face
+  near:
+    description: Lists the nearest players around you
+  seen:
+    description: Shows you when a player was online last
+  enchant:
+    description: You can enchant an item with it
+  itemflag:
+    description: you can modify the item flags like attack speed with it
+    aliases:
+      - flag
+  itemlore:
+    description: You can add lores (like tooltips) with it
+    aliases:
+      - lore
+  rename:
+    description: You can rename an item with it
+    aliases:
+      - itemrename
+  repair:
+    description: You can repair an item with it
+    aliases:
+      - itemrepair
+  book:
+    description: Opens a gui with a writeable book
+  condense:
+    description: You can compress the ingots in your inventory into blocks
+    aliases:
+      - compress
+      - stack
+  skull:
+    description: You can get the skull of a player with it
+    aliases:
+      - head
+      - playerhead
+      - phead
+      - pskull
+  spawner:
+    description: Give yourself a specific spawner
+  unbreakable:
+    description: Modifies your current tool as unbreakable
+    aliases:
+      - unbreakabletool
+      - infinitytool
+  unlimited:
+    description: You can set unlimited blocks from the current block in hand
+    aliases:
+      - unlimitedblocks
+      - infinityblock
+  createkit:
+    description: Create a kit. Your current inventory will be saved
+  deletekit:
+    description: Deltes a kit
+  kit:
+    description: adds a kit to your inventory. It will add the items to your inventory
+  kits:
+    description: Lists all available kits.
+  playerday:
+    description: Sets your player time to day
+    aliases:
+      - pday
+  playernight:
+    description: Sets your player time to night
+    aliases:
+      - pnight
+  playertime:
+    description: Allows you to modify the player time as you wish
+    aliases:
+      - ptime
+  playerrain:
+    description: Changes your player weather to rain
+    aliases:
+      - prain
+  playerthunder:
+    description: Changes your player weather to thunder
+    aliases:
+      - pthunder
+  playerweatherclear:
+    description: Changes your player weather to clear
+    aliases:
+      - pweatherclear
+  playerweather:
+    description: Changes your player weather as you like
+    aliases:
+      - pweather
+  experience:
+    description: Add yourself some experience
+  fly:
+    description: Changes your allow flight state
+  flyspeed:
+    description: Allows you to modify your flight speed
+    aliases:
+      - fspeed
+  gamemode:
+    description: Change your game mode
+    aliases:
+      - gm
+      - gmode
+  godmode:
+    description: You will feel yourself like a god
+    aliases:
+      - godm
+  hat:
+    description: Sets your current item in hand as helmet
+  playtime:
+    description: Shows yourself your current playtime
+  speed:
+    description: Set your flight or walkspeed
+  suicide:
+    description: Are you suicidal?
+    aliases:
+      - killself
+  walkspeed:
+    description: Modifies you walkspeed
+    aliases:
+      - wspeed
+  clearlag:
+    description: Removes items and entities without nametag to remove possible lag
+    aliases:
+      - cl
+      - clearlagg
+      - laggclear
+  list:
+    description: Lists all online players
+    aliases:
+      - listonline
+  adminvanish:
+    description: Sets yourself into vanish. Even operators can't see you now
+    aliases:
+      - av
+      - avanish
+  vanish:
+    description: Sets yourself into vanish
+    aliases:
+      - v
+  randomteleport:
+    description: Teleport yourself into a random location on the surface
+    aliases:
+      - rtp
+      - randomtp
+  teleportall:
+    description: Teleports all players to your location
+    aliases:
+      - tpall
+  teleport:
+    description: Telelports yourself to a player or a player to you
+    aliases:
+      - tp
+      - tport
+      - tpo
+  teleporthere:
+    description: Telelports a player tp you
+    aliases:
+      - tphere
+      - tpohere
+  teleportrequestaccept:
+    description: Accepts the telelportrequest from a player
+    aliases:
+      - tpaccept
+  teleportreqeustblock:
+    description: Block a player so he won't spam you with tpa's.
+    aliases:
+      - tpablock
+  teleportrequest:
+    description: Send a teleportation request to a player
+    aliases:
+      - tpa
+  teleportrequestdecline:
+    description: Declines the teleportation request from a player
+    aliases:
+      - tpadecline
+  teleportrequesthere:
+    description: Sends a telelportation request to yourself to a player
+    aliases:
+      - tpahere
+  teleportrequesttoggle:
+    description: Disables teleportation requests at all
+    aliases:
+      - tpatoggle
+  day:
+    description: Changes the time for all players to day
+  night:
+    description: Changes the time for all players to night
+  burn:
+    description: Sets a player into fire
+  fireball:
+    description: Shoot a fireball like a ghast.
+    aliases:
+      - fball
+  lightning:
+    description: Summons a lightning strike infront of you
+    aliases:
+      - struck
+  demo:
+    description: Did you really buy premium Minecraft?
+  elderguardian:
+    description: Spam someone with elder guardian animations
+    aliases:
+      - eguardian
+  endscreen:
+    description: Lets a player end the game :)
+  freeze:
+    description: Freezes a player so he can't move or interact with anything
+  sudo:
+    description: Let a player run a command for you
+  worldload:
+    description: Show a player the loading world screen
+  delwarp:
+    description: Deletes a warp point
+    aliases:
+      - deletewarp
+  setwarp:
+    description: Sets a warp point
+  warp:
+    description: Telelport to a warp point
+  warps:
+    description: List all warp points
+  rain:
+    description: Changes the weather for all players to rain
+  thunder:
+    description: Changes the weather for all players to thunderstorm
+  weatherclear:
+    description: Clears the weather for all players
+    aliases:
+      - wclear
+  weather:
+    description: Modify the weather like normally
+  createworld:
+    description: Creates a new world
+  loadworld:
+    description: Loads an already existsting world
+  teleportworld:
+    description: Telelports you to a world
+    aliases:
+      - tpworld
+      - tpw
+  unloadworld:
+    description: Unloads a world
