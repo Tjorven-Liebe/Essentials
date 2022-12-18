@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.player_state
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class SpeedCommand : EssentialsCommand("") {
+class SpeedCommand : EssentialsCommand("playerstate.speed.set") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

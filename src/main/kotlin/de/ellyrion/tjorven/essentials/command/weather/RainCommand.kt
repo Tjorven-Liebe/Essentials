@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.weather
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class RainCommand : EssentialsCommand("command.rain.set") {
+class RainCommand : EssentialsCommand("weather.rain.set") {
 
     override fun run(p0: String?, vararg p1: String?): Boolean {
         return false

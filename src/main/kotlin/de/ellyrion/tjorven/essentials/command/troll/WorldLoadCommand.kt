@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.troll
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class WorldLoadCommand : EssentialsCommand("") {
+class WorldLoadCommand : EssentialsCommand("troll.worldload") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

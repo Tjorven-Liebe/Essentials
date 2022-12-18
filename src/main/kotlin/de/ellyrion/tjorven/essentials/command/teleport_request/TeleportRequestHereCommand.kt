@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.teleport_request
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class TeleportRequestHereCommand : EssentialsCommand("") {
+class TeleportRequestHereCommand : EssentialsCommand("teleportrequest.teleportrequesthere") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

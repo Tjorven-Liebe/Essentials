@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.item.meta
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class ItemLoreCommand : EssentialsCommand("") {
+class ItemLoreCommand : EssentialsCommand("item.meta.itemlore") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

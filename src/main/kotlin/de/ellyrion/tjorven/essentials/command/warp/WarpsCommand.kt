@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.warp
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class WarpsCommand : EssentialsCommand("") {
+class WarpsCommand : EssentialsCommand("warp.warps.list") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

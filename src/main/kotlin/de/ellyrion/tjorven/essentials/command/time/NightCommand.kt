@@ -3,7 +3,7 @@ package de.ellyrion.tjorven.essentials.command.time
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 import org.bukkit.entity.Player
 
-class NightCommand : EssentialsCommand("command.night.set") {
+class NightCommand : EssentialsCommand("time.night.set") {
 
     override fun run(label: String?, vararg args: String?): Boolean {
         if (args.isEmpty()) return true

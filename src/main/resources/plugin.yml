@@ -6,6 +6,7 @@ author: Cericx_
 commands:
   broadcast:
     description: Sends a message as broadcast to everyone
+    permission: "essentials.chat.broadcast"
     aliases:
       - bc
       - bcast

@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.gui
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class AnvilCommand : EssentialsCommand("") {
+class AnvilCommand : EssentialsCommand("gui.anvil.open") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

@@ -12,6 +12,7 @@ class Essentials : JavaPlugin() {
 
     override fun onEnable() {
         plugin = this
+        Register(plugin)
         super.onEnable()
     }
 

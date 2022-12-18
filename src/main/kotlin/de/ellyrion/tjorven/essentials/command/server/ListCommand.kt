@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.server
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class ListCommand : EssentialsCommand("") {
+class ListCommand : EssentialsCommand("server.list") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

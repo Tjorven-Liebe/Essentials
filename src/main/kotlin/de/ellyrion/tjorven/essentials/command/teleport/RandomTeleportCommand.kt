@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.teleport
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class RandomTeleportCommand : EssentialsCommand("") {
+class RandomTeleportCommand : EssentialsCommand("teleport.randomteleport.teleported") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

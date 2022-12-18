@@ -1,0 +1,12 @@
+chat:
+  broadcast:
+    send: "&7%message%"
+economy:
+  balance:
+    self: "&7Du hast %balance%€"
+  balancetop:
+    line: "%count% &7- &c%player%"
+  money:
+    self: "&7Du has %balance%€"
+  economy:
+    pay: "&7Du hast %target% %balance%€ bezahlt"

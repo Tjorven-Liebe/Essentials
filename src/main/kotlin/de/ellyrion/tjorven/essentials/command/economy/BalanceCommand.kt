@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.economy
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class BalanceCommand : EssentialsCommand("") {
+class BalanceCommand : EssentialsCommand("economy.balance.self") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }

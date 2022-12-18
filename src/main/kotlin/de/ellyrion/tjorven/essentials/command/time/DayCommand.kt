@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.time
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class DayCommand : EssentialsCommand("command.day.set") {
+class DayCommand : EssentialsCommand("time.day.set") {
 
     override fun run(label: String?, vararg args: String?): Boolean {
         if (args.isEmpty()) return true

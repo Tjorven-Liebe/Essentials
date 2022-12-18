@@ -41,7 +41,7 @@ import de.ellyrion.tjorven.essentials.command.troll.*
 import de.ellyrion.tjorven.essentials.command.troll.interact.BurnCommand
 import de.ellyrion.tjorven.essentials.command.troll.interact.FireballCommand
 import de.ellyrion.tjorven.essentials.command.troll.interact.LightningCommand
-import de.ellyrion.tjorven.essentials.command.warp.DelWarpCommand
+import de.ellyrion.tjorven.essentials.command.warp.DeleteWarpCommand
 import de.ellyrion.tjorven.essentials.command.warp.SetWarpCommand
 import de.ellyrion.tjorven.essentials.command.warp.WarpCommand
 import de.ellyrion.tjorven.essentials.command.warp.WarpsCommand
@@ -181,7 +181,7 @@ class Register(var plugin: JavaPlugin) {
         command("worldload", WorldLoadCommand())
 
         /*Warp*/
-        command("delwarp", DelWarpCommand())
+        command("delwarp", DeleteWarpCommand())
         command("setwarp", SetWarpCommand())
         command("warp", WarpCommand())
         command("warps", WarpsCommand())

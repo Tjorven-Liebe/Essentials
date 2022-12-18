@@ -2,7 +2,7 @@ package de.ellyrion.tjorven.essentials.command.interaction.player
 
 import de.ellyrion.tjorven.essentials.util.EssentialsCommand
 
-class AfkCommand : EssentialsCommand("") {
+class AfkCommand : EssentialsCommand("interaction.player.afk.set") {
     override fun run(p0: String?, vararg p1: String?): Boolean {
         TODO("Not yet implemented")
     }
